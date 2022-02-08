@@ -10,9 +10,9 @@ Please find the Markdown sheet here for presentation improvement.
 
 '**' Final Decision.
 
-'****' Sub Objective
+'***' Sub Objective.
 
-(increment the number of asterisks in your work if you want to indicate something is not listed here!)
+(increment the number of asterisk in your work if you want to indicate something is not listed here!)
 
 # Project Timeline
 
@@ -21,7 +21,7 @@ Please find the Markdown sheet here for presentation improvement.
 ##### Topic 1:
 ##### Topic 2:
 ##### Topic 3:
-#### ** Selected Topic:
+### ** Selected Topic:
 ### * Game Idea:
 #### *** Topic 1:
 ##### Idea 1:
@@ -35,7 +35,7 @@ Please find the Markdown sheet here for presentation improvement.
 ##### Idea 1:
 ##### Idea 2:
 ##### Idea 3:
-#### ** Selected Idea:
+### ** Selected Idea:
 ### * Idea Expected Outcome/Idea Expected Implementation:
 #### *** Idea 1:
 ##### Expected Output:
@@ -46,7 +46,7 @@ Please find the Markdown sheet here for presentation improvement.
 #### *** Idea 3:
 ##### Expected Output:
 ##### Expected Implementation:
-#### ** Selected Idea:
+### ** Selected Idea:
 ## Phase 2: divide and conquer
 ### Summary of tasks:
 
