@@ -50,28 +50,28 @@ Please find the Markdown sheet here for presentation improvement.
 ## Phase 2: divide and conquer
 ### Summary of tasks:
 
-tasks go here
+tasks go here!
 
 ## Anthony Robert McAffee
 ### Individual task:
-tasks go here
-#### subIdeas for individual task
-#### subProblem for individual task
+tasks go here!
+#### subProblem for individual task:
+#### subIdeas for subProblem:
 ## Samuel Cowper
 ### Individual task:
-tasks go here
-#### subIdeas for individual task
-#### subProblem for individual task
+tasks go here!
+#### subProblem for individual task:
+#### subIdeas for subProblem:
 ## Jason Tran
 ### Individual task:
-tasks go here
-#### subIdeas for individual task
-#### subProblem for individual task
+tasks go here!
+#### subProblem for individual task:
+#### subIdeas for subProblem:
 ## Matthew Christopher Hunter
 ### Individual task:
-tasks go here
-#### subIdeas for individual task
-#### subProblem for individual task
+tasks go here!
+#### subProblem for individual task:
+#### subIdeas for subProblem:
 ## Phase 3: reviewing leftover problem
 
 ## Phase 4: Testing
