@@ -19,7 +19,7 @@ Please find the Markdown sheet here for presentation improvement.
 ## Phase 1: Idea (Due date: Wednesday Feb 16, 2022 11:59 PM)
 ### * Game Topic:
 ##### Topic 1: Fantasy Slime 2D Surface Escape
-##### Topic 2:
+##### Topic 2: Fredericton Kart Racer "Roundabout Rampage"
 ##### Topic 3:
 ### ** Selected Topic:
 ### * Game Idea:
