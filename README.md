@@ -17,8 +17,6 @@ Please find the Markdown sheet here for presentation improvement.
 ## Voting:
 Write an extra 1 under the listed topic.
 
-Please vote n-1 avalable options (3 avalable options vote 2)
-
 The option with the most 1s counted wins.
 
 # Project Timeline
