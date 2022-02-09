@@ -20,7 +20,10 @@ Please find the Markdown sheet here for presentation improvement.
 ### * Game Topic:
 ##### Topic 1: Fantasy Slime 2D Surface Escape
 ##### Topic 2: Fredericton Kart Racer "Roundabout Rampage"
-##### Topic 3:
+##### Topic 3: Evolution the journey from spore to StarTrek 2D & 3D mix
+##### Topic 4: 
+##### Topic 5:
+##### Topic 6:
 ### ** Selected Topic:
 ### * Game Idea:
 #### *** Topic 1:
@@ -31,7 +34,7 @@ Please find the Markdown sheet here for presentation improvement.
 ##### Idea 1:
 ##### Idea 2:
 ##### Idea 3:
-#### Topic 3:
+#### *** Topic 3:
 ##### Idea 1:
 ##### Idea 2:
 ##### Idea 3:
