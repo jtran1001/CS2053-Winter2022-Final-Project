@@ -14,6 +14,13 @@ Please find the Markdown sheet here for presentation improvement.
 
 (increment the number of asterisk in your work if you want to indicate something is not listed here!)
 
+## Voting:
+Write an extra 1 under the listed topic.
+
+Please vote n-1 avalable options (3 avalable options vote 2)
+
+The option with the most 1s counted wins.
+
 # Project Timeline
 
 ## Phase 1: Idea (Due date: Wednesday Feb 16, 2022 11:59 PM)
@@ -40,6 +47,19 @@ Once the specie has reached the last mile stone, the specie launches their space
 ##### Topic 4: 
 ##### Topic 5:
 ##### Topic 6:
+### *** voting table:
+Topic 1: Fantasy Slime 2D Surface Escape: 
+
+vote goes here!
+
+Topic 2: Fredericton Kart Racer "Roundabout Rampage"
+
+vote goes here!
+
+Topic 3: Evolution the journey from spore to StarTrek 2D & 3D mix
+
+vote goes here!
+
 ### ** Selected Topic:
 ### * Game Idea:
 #### *** Topic 1:
