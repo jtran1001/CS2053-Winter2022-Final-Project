@@ -1,0 +1,91 @@
+Title: Slimelight? Started From The Bottom? Enlightened? Sub-Light? Seek the Sky?
+
+Authors: · Anthony McAffee (amcaffee@unb.ca) · Jason Tran (jason.tran@unb.ca) · Matthew Hunter (mhunter1@unb.ca) · Samuel Cowper (samuel.cowper@unb.ca)
+
+Genre: Fantasy Platformer
+
+Story:
+
+A solid droplet of light falls down a dark chasm and lands in a cube of slime at the very bottom. The slime becomes aware of its surroundings and begins to explore. As it does, the light’s memories beckon the slime to reach higher in search of the surface. Along the way this cute little slime will need to build tools and upgrade abilities to overcome obstacles and climb to higher levels. It will meet friends, enemies, and others as it discovers the magical world it has woken up in.
+
+Game description:
+
+There are two core mechanics: the slime and the light. The player can make the slime move and jump with the WASD-space keys, and the light shines, hides, or focuses with the mouse.
+
+The dark caves have few natural light sources. The light inside the slime may show the way for a few steps ahead, but when the player wants to jump from platform to platform, it will be useful to see further than that. There are several hostile creatures in these subterranean biomes, and how the slime manipulates the light will affect each creature differently. Some will shy away if the slime focuses the light in their faces, others are attracted to the light and the slime will need to hide it to avoid attack. Friendly NPCs can be found around the map who can help upgrade the light’s power if the slime brings them resources that they need. By the end the slime may be able to see the whole room, baffle the most dangerous enemies, “sonar” pulse, melt ice, spring traps, solve puzzles, or whatever we have time for in the development process.
+
+Slimes live on moisture and will die without it. The player will find that if the slime is damaged or is exposed to dry air too long it will lose body mass and begin to shrink. To avert death, they will need to find puddles of water to restore themselves. The default slime has two sizes: health and small. A healthy slime can jump farther and take hits that would kill the small slime. However, the small slime may be able to fit through spaces a healthy slime could not. If a small slime is damaged it will die, and the light inside will find it’s way back to the bottom for a new slime. This mechanic can be upgraded as well. In oil pools the slime may gain an extra layer and be able to tank many hits but moves slow and can’t jump. Ooze pools may make it sticky for awhile so that it can climb walls or float/sink in water depending on what the slime needs to accomplish.
+Slime can have "Flash" ability that stuns enemies and lights up entire screen for a time, at the cost of player health. Initially, this cost could be larger than player's maximum health, so this is a late-game ability, not to be used lightly.
+
+Player character:
+
+The slime will be a colorful cube with eyes and a faint light source inside it. A healthy slime may have fully textured eyes and a small slime may just have little dots.
+
+Game entities/objects:
+
+Allies:
+
+· An Ent-like scholar who can give the slime upgrades for the light if it brings him materials (maybe crystal?) that the scholar needs to alter the light
+
+· A hive mind of giant ants that could carry the light back to the slimes at the bottom, explain some elements of the biomes, and possibly help in other ways
+
+Enemies:
+
+· giant spider (Attracted to light)
+
+· Weeping angels (freeze if in focused light)
+
+· other slimes (you take over the new slime but lose you upgrades)
+
+· Canyon Squid (tentacles poke out of the walls to smack)
+
+· blind bat (light doesn’t affect it, hide or avoid)
+
+· ?
+
+Objects:
+
+· pickups for upgrades
+
+· pools (water, oil, ooze)
+
+· Puzzles & traps?
+
+Game levels:
+
+· Bottom floor: tutorial for base mechanics
+
+· Scholar’s room: no obstacles, just the scholar, a pool, and an upgrade platform. “Rest stop”
+
+o A door on each level can be opened once the slime reaches it that leads back to this “pocket dimension”. If the slime dies the player can use these doors to jump back to the level where they died. They can also have the scholar restore any upgrades they already unlocked but lost upon death.
+
+· lava biome near the bottom
+
+· ?
+
+· Spider biome?
+
+· abandoned mech with a gun pointing up, the slime could trigger it to be shot to the next level
+
+· ancient ruins?
+
+· Final level: Utilize everything learned previously to make it to the surface
+
+o Final boss could be an adventurer who is starting at the entrance to the cave and doesn’t bother trying to talk to the slime?
+
+Development platform: Unity
+
+Target Platform: PC
+
+Team member responsibilities:
+
+· Ant:
+
+o Story and writing
+
+· Jason:
+
+· Matthew:
+* Art assets
+
+· Samuel:
