@@ -12,10 +12,10 @@ Game description:
 
 There are two core mechanics: the slime and the light. The player can make the slime move and jump with the WASD-space keys, and the light shines, hides, or focuses with the mouse.
 
-The dark caves have few natural light sources. The light inside the slime may show the way for a few steps ahead, but when the player wants to jump from platform to platform, it will be useful to see further than that. There are several hostile creatures in these subterranean biomes, and how the slime manipulates the light will affect each creature differently. Some will shy away if the slime focuses the light in their faces, others are attracted to the light and the slime will need to hide it to avoid attack. Friendly NPCs can be found around the map who can help upgrade the light’s power if the slime brings them resources that they need. By the end the slime may be able to see the whole room, baffle the most dangerous enemies, “sonar” pulse, melt ice, spring traps, solve puzzles, or whatever we have time for in the development process.
+The dark caves have few natural light sources. The light inside the slime may show the way for a few steps ahead, but when the player wants to jump from platform to platform, it will be useful to see further than that. There are several hostile creatures in these subterranean biomes, and how the slime manipulates the light will affect each creature differently. Some will shy away if the slime focuses the light in their faces, others are attracted to the light and the slime will need to hide it to avoid attack. Friendly NPCs can be found around the map who can help upgrade the light’s power if the slime brings them resources that they need. By the end the slime may be able to see the whole room, baffle the most dangerous enemies, “sonar” pulse, melt ice, spring traps, solve puzzles, and a "Flash" ability that stuns enemies and lights up entire screen for a time, at the cost of player health. Initially, this cost could be larger than player's maximum health, so this is a late-game ability, not to be used lightly.
 
 Slimes live on moisture and will die without it. The player will find that if the slime is damaged or is exposed to dry air too long it will lose body mass and begin to shrink. To avert death, they will need to find puddles of water to restore themselves. The default slime has two sizes: health and small. A healthy slime can jump farther and take hits that would kill the small slime. However, the small slime may be able to fit through spaces a healthy slime could not. If a small slime is damaged it will die, and the light inside will find it’s way back to the bottom for a new slime. This mechanic can be upgraded as well. In oil pools the slime may gain an extra layer and be able to tank many hits but moves slow and can’t jump. Ooze pools may make it sticky for awhile so that it can climb walls or float/sink in water depending on what the slime needs to accomplish.
-Slime can have "Flash" ability that stuns enemies and lights up entire screen for a time, at the cost of player health. Initially, this cost could be larger than player's maximum health, so this is a late-game ability, not to be used lightly.
+
 
 Player character:
 
@@ -29,7 +29,7 @@ Allies:
 
 · A hive mind of giant ants that could carry the light back to the slimes at the bottom, explain some elements of the biomes, and possibly help in other ways.
 
-* Can communicate with some allies with light on/off button(Simple signals, low-complexity morse code, etc.)
+* Can communicate with some allies with light on/off button(Simple signals, low-complexity morse code, etc.) who respond with text dialogue.
 
 Enemies:
 
