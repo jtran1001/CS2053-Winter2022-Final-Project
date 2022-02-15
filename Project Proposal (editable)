@@ -27,19 +27,23 @@ Allies:
 
 · An Ent-like scholar who can give the slime upgrades for the light if it brings him materials (maybe crystal?) that the scholar needs to alter the light
 
-· A hive mind of giant ants that could carry the light back to the slimes at the bottom, explain some elements of the biomes, and possibly help in other ways
+· A hive mind of giant ants that could carry the light back to the slimes at the bottom, explain some elements of the biomes, and possibly help in other ways.
+
+* Can communicate with some allies with light on/off button(Simple signals, low-complexity morse code, etc.)
 
 Enemies:
 
 · giant spider (Attracted to light)
 
-· Weeping angels (freeze if in focused light)
+· Weeping angels (freeze if in focused light) (unt? ont? int?)
 
-· other slimes (you take over the new slime but lose you upgrades)
+· other slimes (you take over the new slime but lose you upgrades) could have sections with porous wall where slime must seperate itself from light to solve puzzle
 
 · Canyon Squid (tentacles poke out of the walls to smack)
 
 · blind bat (light doesn’t affect it, hide or avoid)
+
+* Stone golem things
 
 · ?
 
@@ -50,6 +54,11 @@ Objects:
 · pools (water, oil, ooze)
 
 · Puzzles & traps?
+
+* water bottle
+
+* pickaxe to break some walls
+
 
 Game levels:
 
@@ -71,7 +80,14 @@ o A door on each level can be opened once the slime reaches it that leads back t
 
 · Final level: Utilize everything learned previously to make it to the surface
 
+* jungle biome/lush caves
+
+* underground river/aquifer
+
 o Final boss could be an adventurer who is starting at the entrance to the cave and doesn’t bother trying to talk to the slime?
+
+* Level transition could be slime cleaning rusted minecart and riding to new area.
+
 
 Development platform: Unity
 
