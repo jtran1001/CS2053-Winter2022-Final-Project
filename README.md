@@ -39,7 +39,6 @@ Phase 3: Civilization.
 Once the specie has reached the last mile stone, the specie launches their space Ship, game ends.
 ### ** Selected Topic: Fantasy Slime 2D Surface Escape
 ### * Game Idea:
-#### *** Topic 1:
 ##### Idea 1:
 ##### Idea 2:
 ##### Idea 3:
