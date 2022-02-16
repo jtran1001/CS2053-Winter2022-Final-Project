@@ -41,7 +41,7 @@ Once the specie has reached the last mile stone, the specie launches their space
 ##### Topic 4: 
 ##### Topic 5:
 ##### Topic 6:
-### ** Selected Topic:
+### ** Selected Topic: Fantasy Slime 2D Surface Escape
 ### * Game Idea:
 #### *** Topic 1:
 ##### Idea 1:
