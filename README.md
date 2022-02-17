@@ -37,25 +37,12 @@ Phase 3: Civilization.
 - Herbivore: good science.
 
 Once the specie has reached the last mile stone, the specie launches their space Ship, game ends.
-
-##### Topic 4: 
-##### Topic 5:
-##### Topic 6:
-### ** Selected Topic:
+### ** Selected Topic: Fantasy Slime 2D Surface Escape
 ### * Game Idea:
-#### *** Topic 1:
 ##### Idea 1:
 ##### Idea 2:
 ##### Idea 3:
-#### *** Topic 2:
-##### Idea 1:
-##### Idea 2:
-##### Idea 3:
-#### *** Topic 3:
-##### Idea 1:
-##### Idea 2:
-##### Idea 3:
-### ** Selected Idea:
+
 ### * Idea Expected Outcome/Idea Expected Implementation:
 #### *** Idea 1:
 ##### Expected Output:
