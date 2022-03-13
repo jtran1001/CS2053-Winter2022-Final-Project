@@ -6,15 +6,29 @@ Genre: Fantasy Platformer
 
 Story:
 
-A solid droplet of light falls down a dark chasm and lands in a cube of slime at the very bottom. The slime becomes aware of its surroundings and begins to explore. As it does, the light’s memories beckon the slime to reach higher in search of the surface. Along the way this cute little slime will need to build tools and upgrade abilities to overcome obstacles and climb to higher levels. It will meet friends, enemies, and others as it discovers the magical world it has woken up in.
+A solid droplet of light falls down a dark chasm and lands in a cube of slime at the very bottom. The slime becomes aware of its surroundings and begins to explore. 
+As it does, the light’s memories beckon the slime to reach higher in search of the surface. Along the way this cute little slime will need to build tools and upgrade 
+abilities to overcome obstacles and climb to higher levels. It will meet friends, enemies, and others as it discovers the magical world it has woken up in.
 
 Game description:
 
-There are two core mechanics: the slime and the light. The player can make the slime move and jump with the WASD-space keys, and the light shines, hides, or focuses with the mouse.
+There are two core mechanics: the slime and the light. The player can make the slime move and jump with the WASD-space keys, and the light shines, hides, or focuses with 
+the mouse.
 
-The dark caves have few natural light sources. The light inside the slime may show the way for a few steps ahead, but when the player wants to jump from platform to platform, it will be useful to see further than that. There are several hostile creatures in these subterranean biomes, and how the slime manipulates the light will affect each creature differently. Some will shy away if the slime focuses the light in their faces, others are attracted to the light and the slime will need to hide it to avoid attack. Friendly NPCs can be found around the map who can help upgrade the light’s power if the slime brings them resources that they need. By the end the slime may be able to see the whole room, baffle the most dangerous enemies, “sonar” pulse, melt ice, spring traps, solve puzzles, and a "Flash" ability that stuns enemies and lights up entire screen for a time, at the cost of player health. Initially, this cost could be larger than player's maximum health, so this is a late-game ability, not to be used lightly.
+The dark caves have few natural light sources. The light inside the slime may show the way for a few steps ahead, but when the player wants to jump from platform 
+to platform, it will be useful to see further than that. There are several hostile creatures in these subterranean biomes, and how the slime manipulates the light 
+will affect each creature differently. Some will shy away if the slime focuses the light in their faces, others are attracted to the light and the slime will need 
+to hide it to avoid attack. Friendly NPCs can be found around the map who can help upgrade the light’s power if the slime brings them resources that they need. 
+By the end the slime may be able to see the whole room, baffle the most dangerous enemies, “sonar” pulse, melt ice, spring traps, solve puzzles, and a "Flash" ability 
+that stuns enemies and lights up entire screen for a time, at the cost of player health. Initially, this cost could be larger than player's maximum health, so this is a 
+late-game ability, not to be used lightly.
 
-Slimes live on moisture and will die without it. The player will find that if the slime is damaged or is exposed to dry air too long it will lose body mass and begin to shrink. To avert death, they will need to find puddles of water to restore themselves. The default slime has two sizes: health and small. A healthy slime can jump farther and take hits that would kill the small slime. However, the small slime may be able to fit through spaces a healthy slime could not. If a small slime is damaged it will die, and the light inside will find it’s way back to the bottom for a new slime. This mechanic can be upgraded as well. In oil pools the slime may gain an extra layer and be able to tank many hits but moves slow and can’t jump. Ooze pools may make it sticky for awhile so that it can climb walls or float/sink in water depending on what the slime needs to accomplish.
+Slimes live on moisture and will die without it. The player will find that if the slime is damaged or is exposed to dry air too long it will lose body mass and begin to shrink. 
+To avert death, they will need to find puddles of water to restore themselves. The default slime has two sizes: health and small. A healthy slime can jump farther and 
+take hits that would kill the small slime. However, the small slime may be able to fit through spaces a healthy slime could not. If a small slime is damaged it will die, 
+and the light inside will find it’s way back to the bottom for a new slime. This mechanic can be upgraded as well. In oil pools the slime may gain an extra layer and be able 
+to tank many hits but moves slow and can’t jump. Ooze pools may make it sticky for awhile so that it can climb walls or float/sink in water depending on what the slime needs 
+to accomplish.
 
 
 Player character:
@@ -66,7 +80,8 @@ Game levels:
 
 · Scholar’s room: no obstacles, just the scholar, a pool, and an upgrade platform. “Rest stop”
 
-o A door on each level can be opened once the slime reaches it that leads back to this “pocket dimension”. If the slime dies the player can use these doors to jump back to the level where they died. They can also have the scholar restore any upgrades they already unlocked but lost upon death.
+o A door on each level can be opened once the slime reaches it that leads back to this “pocket dimension”. If the slime dies the player can use these doors to jump back 
+to the level where they died. They can also have the scholar restore any upgrades they already unlocked but lost upon death.
 
 · lava biome near the bottom
 
