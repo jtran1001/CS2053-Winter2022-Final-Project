@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1599475585
+    locked: 0
+  - name: Ground
+    uniqueID: 4246915319
+    locked: 0
+  - name: Slime
+    uniqueID: 3075285207
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
