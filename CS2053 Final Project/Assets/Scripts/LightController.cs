@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MouseLightController : MonoBehaviour
+public class LightController : MonoBehaviour
 {
     Vector3 mousePosition;
     public float moveSpeed = 0.1f;
