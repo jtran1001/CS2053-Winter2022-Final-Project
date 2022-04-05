@@ -32,14 +32,14 @@ public class MouseLightController : MonoBehaviour
         {
             position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
         }
-        rb.MovePosition(position);
+        
     }
     
-    void FixedUpdate()
+    void LateUpdate()
     {
-        
-        
-        
+
+        rb.MovePosition(position);
+
 
     }
 
