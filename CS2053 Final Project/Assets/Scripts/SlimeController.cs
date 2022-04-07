@@ -19,8 +19,8 @@ public class SlimeController : MonoBehaviour
     private Vector3 horizontalVelocity;
     private bool CanJump = false;
     private bool WaterZone = false;
+    public int FullHydration = 10;
     private int Hydration = 10;
-    private int FullHydration = 10;
     private float LastResetTime = 0;
 
     // Start is called before the first frame update
@@ -28,6 +28,7 @@ public class SlimeController : MonoBehaviour
     {
         horizontalVelocity = new Vector3(0f, 0f, 0f);
         rb = GetComponent<Rigidbody2D>();
+        Hydration = FullHydration;
     }
 
     // Update is called once per frame
@@ -61,7 +62,7 @@ public class SlimeController : MonoBehaviour
         }
         else 
         {
-            Hydration = 10; 
+            Hydration = FullHydration; 
         }
         HydrationText.text = "Hydration: " + Hydration.ToString();
 

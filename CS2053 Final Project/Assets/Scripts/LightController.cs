@@ -27,6 +27,7 @@ public class MouseLightController : MonoBehaviour
             mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+            rb.MovePosition(position);
         }
         else
         {
@@ -38,8 +39,8 @@ public class MouseLightController : MonoBehaviour
     void LateUpdate()
     {
 
-        rb.MovePosition(position);
 
+        rb.MovePosition(position);
 
     }
 
