@@ -86,7 +86,7 @@ public class SlimeController : MonoBehaviour
     }
 
     IEnumerator DeathPause(){
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(45);
     }
 
     void OnTriggerStay2D(Collider2D c)
