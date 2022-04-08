@@ -13,6 +13,7 @@ public class SlimeController : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float jumpVelocity;
     public Text HydrationText;
+    public GameObject deathMask;
 
     Rigidbody2D rb;
 
@@ -28,6 +29,8 @@ public class SlimeController : MonoBehaviour
     {
         horizontalVelocity = new Vector3(0f, 0f, 0f);
         rb = GetComponent<Rigidbody2D>();
+        
+        deathMask.SetActive(false);
     }
 
     // Update is called once per frame
@@ -74,11 +77,16 @@ public class SlimeController : MonoBehaviour
         {
             CanJump = true;
         }
-
         if (c.gameObject.tag == "Enemy_Snake")
         {
-            //die
+            deathMask.SetActive(true);
+            StartCoroutine(DeathPause());
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+    IEnumerator DeathPause(){
+        yield return new WaitForSeconds(3);
     }
 
     void OnTriggerStay2D(Collider2D c)

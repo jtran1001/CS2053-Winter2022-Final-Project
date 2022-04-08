@@ -7,9 +7,13 @@ public class SnakeAI : MonoBehaviour
     private Animator anim;
     private Vector3 velocity;
     private SpriteRenderer rend;
-    public float speed = 2.0f;
+    public float speed = 1.0f;
+    public float lungeModifier = 2.0f;
     public float leftEdge = 0.0f;
     public float rightEdge = 5.0f;
+    public float snakeVisionRange = 3.0f;
+    public GameObject player;
+    
 
 
     // Start is called before the first frame update
@@ -24,21 +28,29 @@ public class SnakeAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Transform playerTransform = player.transform;
+        Vector3 playerPos = playerTransform.position;
         var dist = (transform.position - Camera.main.transform.position).z;
-        /*var leftBorder = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, dist)).x;
-        var rightBorder = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, dist)).x;
-        var bottomBorder = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, dist)).y;
-        var topBorder = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, dist)).y;
-*/
+
         float width = rend.bounds.size.x;
         float height = rend.bounds.size.y;
 
-        if((transform.position.x <= leftEdge) && velocity.x < 0f){
+        //lunging/swarming behaviour, jump on the player while in the snake territory and keep hitting
+        if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x > 0f)){
+            velocity = new Vector3(speed*lungeModifier, 0f, 0f);
+        }
+        if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x < 0f)){
+            velocity = new Vector3(-speed*lungeModifier, 0f, 0f);
+        }
+
+        //regular back and forth movement
+        if((transform.position.x <= leftEdge)){
             velocity = new Vector3(speed, 0f, 0f);
         }
         if((transform.position.x >= rightEdge)){
             velocity = new Vector3(-speed, 0f, 0f);
         }
+        
 
         transform.position = transform.position + velocity * Time.deltaTime * speed;
     }
