@@ -12,6 +12,7 @@ public class LightController : MonoBehaviour
     private Rigidbody2D rb;
     public SlimeController Slime;
     public Text Instructions;
+    
 
     private int State;
 
