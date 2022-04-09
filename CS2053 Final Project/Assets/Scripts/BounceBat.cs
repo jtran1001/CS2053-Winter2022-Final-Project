@@ -27,4 +27,5 @@ public class BounceBat : MonoBehaviour
             rb.velocity = direction * Mathf.Max(speed, 0f);
         }
     }
+    // this is a test 
 }
