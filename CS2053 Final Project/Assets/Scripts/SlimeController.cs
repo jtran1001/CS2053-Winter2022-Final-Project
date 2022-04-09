@@ -14,6 +14,8 @@ public class SlimeController : MonoBehaviour
     public float jumpVelocity;
     public Text HydrationText;
     public GameObject deathMask;
+    public AudioSource slimePlop;
+    
 
     Rigidbody2D rb;
 
@@ -23,6 +25,7 @@ public class SlimeController : MonoBehaviour
     private int Hydration = 10;
     private int FullHydration = 10;
     private float LastResetTime = 0;
+    private bool inAir = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +34,8 @@ public class SlimeController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         
         deathMask.SetActive(false);
+        slimePlop = GetComponent<AudioSource>();
+        slimePlop.Pause();
     }
 
     // Update is called once per frame
@@ -43,6 +48,7 @@ public class SlimeController : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 rb.velocity = Vector2.up * jumpVelocity;
+                inAir = true;
             }
             if (rb.velocity.y < 0)
             {
@@ -76,17 +82,25 @@ public class SlimeController : MonoBehaviour
         if (c.gameObject.tag == "CanJumpGround")
         {
             CanJump = true;
+            if(inAir){
+            slimePlop.Play(0);
+            inAir = false;
+            slimePlop.Pause();
+            }
         }
         if (c.gameObject.tag == "Enemy_Snake")
         {
+
             deathMask.SetActive(true);
             StartCoroutine(DeathPause());
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
     }
 
     IEnumerator DeathPause(){
-        yield return new WaitForSeconds(45);
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void OnTriggerStay2D(Collider2D c)

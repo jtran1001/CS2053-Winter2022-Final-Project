@@ -38,24 +38,32 @@ public class SnakeAI : MonoBehaviour
 
         float width = rend.bounds.size.x;
         float height = rend.bounds.size.y;
+        lunge = false;
         snakeHiss.Pause();
 
         //lunging/swarming behaviour, jump on the player while in the snake territory and keep hitting
-        if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x > 0f)){
-            velocity = new Vector3(speed*lungeModifier, 0f, 0f);
-            lunge = true;
+        if((playerPos.x <= (transform.position.x + snakeVisionRange)) && (velocity.x > 0f) && (((playerPos.y <= transform.position.y+1)&&(playerPos.y > transform.position.y))||((playerPos.y >= transform.position.y-1)&&(playerPos.y < transform.position.y)))){
+            if(playerPos.x >= transform.position.x){
+                velocity = new Vector3(speed*lungeModifier, 0f, 0f);
+                lunge = true;
+            }
+            
         }
-        if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x < 0f)){
-            velocity = new Vector3(-speed*lungeModifier, 0f, 0f);
-            lunge = true;
+        if((playerPos.x >= (transform.position.x - snakeVisionRange)) && (velocity.x < 0f) && (((playerPos.y <= transform.position.y+1)&&(playerPos.y > transform.position.y))||((playerPos.y >= transform.position.y-1)&&(playerPos.y < transform.position.y)))){
+            if(playerPos.x <= transform.position.x){
+                velocity = new Vector3(-speed*lungeModifier, 0f, 0f);
+                lunge = true;
+            }
         }
 
         //regular back and forth movement
         if((transform.position.x <= leftEdge)){
             velocity = new Vector3(speed, 0f, 0f);
+            lunge = false;
         }
         if((transform.position.x >= rightEdge)){
             velocity = new Vector3(-speed, 0f, 0f);
+            lunge = false;
         }
         
 
@@ -69,10 +77,12 @@ public class SnakeAI : MonoBehaviour
         if(velocity.x < 0){
             anim.Play("SnakeLeft");
         }
-        if(lunge){
-            snakeHiss.Play(0);
+        if(lunge==true){
+            if(!snakeHiss.isPlaying){
+                snakeHiss.PlayOneShot(snakeHiss.clip, 1);
+            } 
             lunge = false;
-            snakeHiss.Pause();
         }
     }
+
 }
