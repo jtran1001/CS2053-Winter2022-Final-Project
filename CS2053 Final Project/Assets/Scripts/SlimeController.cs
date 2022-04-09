@@ -36,6 +36,7 @@ public class SlimeController : MonoBehaviour
         deathMask.SetActive(false);
         slimePlop = GetComponent<AudioSource>();
         slimePlop.Pause();
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -98,6 +99,7 @@ public class SlimeController : MonoBehaviour
         {
 
             deathMask.SetActive(true);
+            Time.timeScale = 0;
             StartCoroutine(DeathPause());
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -105,7 +107,7 @@ public class SlimeController : MonoBehaviour
     }
 
     IEnumerator DeathPause(){
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSecondsRealtime(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
