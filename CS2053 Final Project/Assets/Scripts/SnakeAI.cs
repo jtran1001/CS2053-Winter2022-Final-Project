@@ -7,12 +7,14 @@ public class SnakeAI : MonoBehaviour
     private Animator anim;
     private Vector3 velocity;
     private SpriteRenderer rend;
+    private bool lunge = false;
     public float speed = 1.0f;
     public float lungeModifier = 2.0f;
     public float leftEdge = 0.0f;
     public float rightEdge = 5.0f;
     public float snakeVisionRange = 3.0f;
     public GameObject player;
+    public AudioSource snakeHiss;
     
 
 
@@ -23,6 +25,8 @@ public class SnakeAI : MonoBehaviour
         Vector3 velocity = new Vector3(1, 0f, 0f);
         rend = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        snakeHiss = GetComponent<AudioSource>();
+        snakeHiss.Pause();
     }
 
     // Update is called once per frame
@@ -34,13 +38,16 @@ public class SnakeAI : MonoBehaviour
 
         float width = rend.bounds.size.x;
         float height = rend.bounds.size.y;
+        snakeHiss.Pause();
 
         //lunging/swarming behaviour, jump on the player while in the snake territory and keep hitting
         if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x > 0f)){
             velocity = new Vector3(speed*lungeModifier, 0f, 0f);
+            lunge = true;
         }
         if((playerPos.x <= transform.position.x - snakeVisionRange) && (velocity.x < 0f)){
             velocity = new Vector3(-speed*lungeModifier, 0f, 0f);
+            lunge = true;
         }
 
         //regular back and forth movement
@@ -61,6 +68,11 @@ public class SnakeAI : MonoBehaviour
         }
         if(velocity.x < 0){
             anim.Play("SnakeLeft");
+        }
+        if(lunge){
+            snakeHiss.Play(0);
+            lunge = false;
+            snakeHiss.Pause();
         }
     }
 }
