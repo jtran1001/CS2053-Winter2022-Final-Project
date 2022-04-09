@@ -7,6 +7,7 @@ TagManager:
   - CanJumpGround
   - WaterZone
   - Obstacle
+  - Enemy
   layers:
   - Default
   - TransparentFX
