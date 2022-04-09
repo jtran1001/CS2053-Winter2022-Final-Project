@@ -35,6 +35,7 @@ public class SlimeController : MonoBehaviour
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
+        HydrationText.text = "";
     }
 
     // Update is called once per frame
@@ -49,7 +50,7 @@ public class SlimeController : MonoBehaviour
         {
             Hydration = FullHydration;
         }
-        HydrationText.text = "Hydration: " + Hydration.ToString();
+        //HydrationText.text = "Hydration: " + Hydration.ToString();
 
 
         if (Hydration < 0)

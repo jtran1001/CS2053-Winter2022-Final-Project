@@ -11,6 +11,7 @@ public class MouseLightController : MonoBehaviour
     private Vector2 position = new Vector2(0f, 0f);
     private Rigidbody2D rb;
     public SlimeController Slime;
+    public Text Instructions;
 
     private int State;
 
@@ -27,6 +28,7 @@ public class MouseLightController : MonoBehaviour
         journeyLength = Vector3.Distance(transform.position, Slime.transform.position);
         State = 0;
         Lilae.text = "";
+        Instructions.text = "";
     }
     void Update()
     {
@@ -47,10 +49,11 @@ public class MouseLightController : MonoBehaviour
         if (State == 1)
         {
             Lilae.text = "HELLO! SHOULDN'T A LITTLE SLIME LIKE YOU BE PLAYING IN A SWAMP WITH YOUR FRIENDS?";
+            Instructions.text = "Press SPACE to jump/relpy.";
             if (Input.GetButton("Jump"))
             {
                 State = 2;
-                
+                Instructions.text = "";
             }
 
         }
@@ -59,14 +62,15 @@ public class MouseLightController : MonoBehaviour
         {
 
             Lilae.text = "AWW, THAT'S SO SAD! HERE, LET ME HELP YOU FIND A WAY OUT.";
-            if (Input.GetButton("Jump"))
+            Instructions.text = "Left-click on the mouse to direct Lilae.";
+
+            if (Input.GetButton("Fire1"))
             {
                 State = 3;
-                Lilae.text = "AWW, THAT'S SO SAD! HERE, LET ME HELP YOU FIND A WAY OUT.";
+                Lilae.text = "";
+                Instructions.text = "";
             }
         }
-
-        
 
         if (State == 3)
         {
