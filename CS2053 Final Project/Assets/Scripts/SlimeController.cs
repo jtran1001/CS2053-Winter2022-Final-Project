@@ -13,6 +13,7 @@ public class SlimeController : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float jumpVelocity;
     public Text HydrationText;
+    
 
     Rigidbody2D rb;
 
@@ -20,7 +21,7 @@ public class SlimeController : MonoBehaviour
     private bool CanJump = false;
     private bool WaterZone = false;
     public int FullHydration = 10;
-    private int Hydration = 10;
+    public int Hydration = 10;
     private float LastResetTime = 0;
     private int State;
 
@@ -36,6 +37,7 @@ public class SlimeController : MonoBehaviour
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
         HydrationText.text = "";
+        
     }
 
     // Update is called once per frame
@@ -50,7 +52,7 @@ public class SlimeController : MonoBehaviour
         {
             Hydration = FullHydration;
         }
-        //HydrationText.text = "Hydration: " + Hydration.ToString();
+        HydrationText.text = "Hydration: " + Hydration.ToString();
 
 
         if (Hydration < 0)
@@ -60,23 +62,23 @@ public class SlimeController : MonoBehaviour
         }
         else if (Hydration <= 4)
         {
-            m_SpriteRenderer.color = new Color(255, 0, 0, 255);
+            m_SpriteRenderer.color = new Color(0, 0, 0, 255);
         }
         else if (Hydration <= 8)
         {
-            m_SpriteRenderer.color = new Color(255, 128, 0, 255);
+            m_SpriteRenderer.color = new Color(255, 0, 0, 100);
         }
         else if (Hydration <= 12)
         {
-            m_SpriteRenderer.color = new Color(255, 255, 0, 255);
+            m_SpriteRenderer.color = new Color(255, 255, 0, 150);
         }
         else if (Hydration <= 16)
         {
-            m_SpriteRenderer.color = new Color(128, 255, 0, 255);
+            m_SpriteRenderer.color = new Color(0, 255, 0, 200);
         }
         else
         {
-            m_SpriteRenderer.color = new Color(0, 255, 0, 255);
+            m_SpriteRenderer.color = new Color(0, 255, 255, 255);
         }
 
         if (State == 1)

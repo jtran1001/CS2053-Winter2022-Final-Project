@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 979b160d3bf852a4f81c2dd852fd33bc,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed7cd73be1f5964ab9e5a793dad0144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.05
+  moveSpeed: 1
   Slime: {fileID: 1760146432}
 --- !u!50 &519420034
 Rigidbody2D:
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b0f63793240044eb614c64948ac3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.05
+  moveSpeed: 1
   Slime: {fileID: 1760146432}
   Instructions: {fileID: 1250282768}
   Lilae: {fileID: 2009515050}
@@ -108469,7 +108469,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856788990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
@@ -109093,7 +109093,7 @@ GameObject:
   - component: {fileID: 1577164543}
   - component: {fileID: 1577164544}
   m_Layer: 0
-  m_Name: Slime Light
+  m_Name: SlimeLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109127,10 +109127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 1
-  m_Color: {r: 0.44118792, g: 0.9716981, b: 0.33459416, a: 1}
-  m_Intensity: 3
-  m_LightVolumeOpacity: 0
+  m_FalloffIntensity: 0.42
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_LightVolumeOpacity: 1
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
@@ -109141,7 +109141,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 2
+  m_PointLightOuterRadius: 0.65
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -109282,7 +109282,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 8774957141590506983, guid: 4a12756b581b6114b92f93eadfa744a0,
     type: 3}
-  m_Color: {r: 0.45077625, g: 0.9150943, b: 0.10791205, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -109325,6 +109325,7 @@ MonoBehaviour:
   jumpVelocity: 10
   HydrationText: {fileID: 321171881}
   FullHydration: 20
+  Hydration: 10
 --- !u!1 &1874689596
 GameObject:
   m_ObjectHideFlags: 0
