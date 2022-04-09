@@ -88,6 +88,12 @@ public class SlimeController : MonoBehaviour
             slimePlop.Pause();
             }
         }
+        if(c.gameObject.tag == "Ground"){
+            if(inAir){
+                slimePlop.PlayOneShot(slimePlop.clip, 1);
+                inAir = false;
+            }
+        }
         if (c.gameObject.tag == "Enemy_Snake")
         {
 
