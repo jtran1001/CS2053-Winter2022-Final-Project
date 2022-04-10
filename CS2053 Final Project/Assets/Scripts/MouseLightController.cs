@@ -14,26 +14,26 @@ public class MouseLightController : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        position = Slime.transform.position;
+        //rb = GetComponent<Rigidbody2D>();
+        //position = Slime.transform.position;
     }
     void Update()
     {
         
 
-        if (Input.GetButton("Fire1"))
-        {
+        //if (Input.GetButton("Fire1"))
+        //{
             
-            mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+        //    mousePosition = Input.mousePosition;
+        //    mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        //    position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
 
             
-        }
-        else
-        {
-            position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
-        }
+       // }
+        //else
+        //{
+        //    position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
+        //}
         
         rb.MovePosition(position);
     }
