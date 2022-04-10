@@ -14,6 +14,7 @@ public class ChaseControll : MonoBehaviour
             {
                 enemy.chase = true;
             }
+            Debug.Log("found Player");
         }
         if (c.CompareTag("Light"))
         {
@@ -21,8 +22,22 @@ public class ChaseControll : MonoBehaviour
             {
                 enemy.chase = false;
             }
+            Debug.Log("Touch Light");
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D c)
+    {
+        if (c.gameObject.CompareTag("Light"))
+        {
+            foreach (FlyingEnemy enemy in enemyArr)
+            {
+                enemy.chase = false;
+            }
+        }
+        Debug.Log("Collision with Light tag");
+    }
+
     private void OnTriggerExit2D(Collider2D c)
     {
         if (c.CompareTag("Player"))
@@ -32,5 +47,6 @@ public class ChaseControll : MonoBehaviour
                 enemy.chase = false;
             }
         }
+        Debug.Log("Exit Player");
     }
 }
