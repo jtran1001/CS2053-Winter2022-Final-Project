@@ -52,7 +52,7 @@ public class SlimeController : MonoBehaviour
         {
             Hydration = FullHydration;
         }
-        HydrationText.text = "Hydration: " + Hydration.ToString();
+        //HydrationText.text = "Hydration: " + Hydration.ToString();
 
 
         if (Hydration < 0)
@@ -113,7 +113,11 @@ public class SlimeController : MonoBehaviour
         {
             CanJump = true;
         }
-        if (c.gameObject.tag == "ExitPoint")
+        if (c.gameObject.tag == "ExitPoint1")
+        {
+            SceneManager.LoadScene("Boss");
+        }
+        if (c.gameObject.tag == "EndPoint")
         {
             SceneManager.LoadScene("End");
         }

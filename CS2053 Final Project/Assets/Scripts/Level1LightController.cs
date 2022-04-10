@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LightController : MonoBehaviour
+public class Level1LightController : MonoBehaviour
 {
     private Vector3 mousePosition;
     public float moveSpeed = 0.05f;

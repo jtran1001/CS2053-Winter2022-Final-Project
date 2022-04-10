@@ -9,7 +9,11 @@ TagManager:
   - Obstacle
   - Enemy
   - EndPoint
-  - ExitPoint
+  - ExitPoint1
+  - ExitPoint2
+  - ExitPoint3
+  - ExitPoint4
+  - ExitPoint5
   layers:
   - Default
   - TransparentFX
