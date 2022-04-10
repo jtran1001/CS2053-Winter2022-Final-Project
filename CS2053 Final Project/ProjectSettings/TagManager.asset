@@ -8,6 +8,8 @@ TagManager:
   - WaterZone
   - Obstacle
   - Enemy
+  - EndPoint
+  - ExitPoint
   layers:
   - Default
   - TransparentFX
