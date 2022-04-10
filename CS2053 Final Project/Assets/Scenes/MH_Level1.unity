@@ -674,7 +674,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1135,11 +1135,11 @@ Tilemap:
   - m_RefCount: 22
     m_Data: {fileID: -8284555360286226792, guid: 4a12756b581b6114b92f93eadfa744a0,
       type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 8774957141590506983, guid: 4a12756b581b6114b92f93eadfa744a0,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -5418613701882328366, guid: 4a12756b581b6114b92f93eadfa744a0,
       type: 3}
@@ -1462,6 +1462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snake
       objectReference: {fileID: 0}
+    - target: {fileID: 4375723065893713639, guid: 8d0f3cbf5def9f34894ebab38af2c0fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy_Snake
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0f3cbf5def9f34894ebab38af2c0fa, type: 3}
 --- !u!1 &437416591
@@ -1754,6 +1759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Snake
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375723065893713639, guid: 8d0f3cbf5def9f34894ebab38af2c0fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy_Snake
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0f3cbf5def9f34894ebab38af2c0fa, type: 3}
@@ -4944,6 +4954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Snake
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375723065893713639, guid: 8d0f3cbf5def9f34894ebab38af2c0fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy_Snake
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0f3cbf5def9f34894ebab38af2c0fa, type: 3}
