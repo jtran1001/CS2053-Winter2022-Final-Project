@@ -8,6 +8,7 @@ TagManager:
   - WaterZone
   - Obstacle
   - Enemy
+  - Light
   layers:
   - Default
   - TransparentFX

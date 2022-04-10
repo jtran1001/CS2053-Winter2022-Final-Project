@@ -15,8 +15,14 @@ public class ChaseControll : MonoBehaviour
                 enemy.chase = true;
             }
         }
+        if (c.CompareTag("Light"))
+        {
+            foreach (FlyingEnemy enemy in enemyArr)
+            {
+                enemy.chase = false;
+            }
+        }
     }
-
     private void OnTriggerExit2D(Collider2D c)
     {
         if (c.CompareTag("Player"))

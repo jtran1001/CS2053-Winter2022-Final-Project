@@ -6,12 +6,14 @@ public class FlyingEnemy : MonoBehaviour
 {
     public float speed;
     private GameObject player;
+    private GameObject flashLight;
     public bool chase = false;
     public Transform originPoint;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        flashLight = GameObject.FindGameObjectWithTag("Light");
     }
 
     void Update()

@@ -119,8 +119,13 @@ public class SlimeController : MonoBehaviour
         {
             WaterZone = true;
         }
-    }
 
+        if (c.gameObject.tag == "Light")
+        {
+            c.attachedRigidbody.AddForce(-0.1F * c.attachedRigidbody.velocity);
+        }
+    }
+    
     void OnTriggerExit2D(Collider2D c)
     {
 
