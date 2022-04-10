@@ -98,3 +98,5 @@ public class LightController : MonoBehaviour
         rb.MovePosition(position);
 
     }
+
+}

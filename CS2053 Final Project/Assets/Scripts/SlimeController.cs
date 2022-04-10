@@ -13,9 +13,6 @@ public class SlimeController : MonoBehaviour
     public float lowJumpMultiplier = 2f;
     public float jumpVelocity;
     public Text HydrationText;
-    public GameObject deathMask;
-    public AudioSource slimePlop;
-
     
 
     Rigidbody2D rb;
@@ -23,7 +20,6 @@ public class SlimeController : MonoBehaviour
     private Vector3 horizontalVelocity;
     private bool CanJump = false;
     private bool WaterZone = false;
-    private bool inAir = false;
     public int FullHydration = 10;
     public int Hydration = 10;
     private float LastResetTime = 0;
@@ -40,11 +36,8 @@ public class SlimeController : MonoBehaviour
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
-        HydrationText.text = "";   
-        deathMask.SetActive(false);
-        slimePlop = GetComponent<AudioSource>();
-        slimePlop.Pause();
-        Time.timeScale = 1;
+        HydrationText.text = "";
+        
     }
 
     // Update is called once per frame
@@ -54,13 +47,13 @@ public class SlimeController : MonoBehaviour
         if (WaterZone is false)
         {
             Hydration = FullHydration - ((int)Time.timeSinceLevelLoad - (int)LastResetTime);
-
         }
-        else 
+        else
         {
-            Hydration = 10; 
+            Hydration = FullHydration;
         }
         HydrationText.text = "Hydration: " + Hydration.ToString();
+
 
         if (Hydration < 0)
         {
@@ -97,7 +90,6 @@ public class SlimeController : MonoBehaviour
                 if (Input.GetButtonDown("Jump"))
                 {
                     rb.velocity = Vector2.up * jumpVelocity;
-                    inAir = true;
                 }
                 if (rb.velocity.y < 0)
                 {
@@ -120,35 +112,7 @@ public class SlimeController : MonoBehaviour
         if (c.gameObject.tag == "CanJumpGround")
         {
             CanJump = true;
-            if(inAir){
-            slimePlop.Play(0);
-            inAir = false;
-            slimePlop.Pause();
-            }
         }
-        if(c.gameObject.tag == "Ground"){
-            if(inAir){
-                slimePlop.PlayOneShot(slimePlop.clip, 1);
-                inAir = false;
-            }
-        }
-        if (c.gameObject.tag == "Enemy_Snake")
-        {
-
-            deathMask.SetActive(true);
-            Time.timeScale = 0;
-            StartCoroutine(DeathPause());
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        
-    }
-
-    IEnumerator DeathPause(){
-        yield return new WaitForSecondsRealtime(5);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-        }
-
     }
 
     void OnTriggerStay2D(Collider2D c)
