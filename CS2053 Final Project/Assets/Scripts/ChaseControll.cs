@@ -25,7 +25,7 @@ public class ChaseControll : MonoBehaviour
             Debug.Log("Touch Light");
         }
     }
-
+    /*
     private void OnCollisionEnter2D(Collision2D c)
     {
         if (c.gameObject.CompareTag("Light"))
@@ -36,7 +36,7 @@ public class ChaseControll : MonoBehaviour
             }
         }
         Debug.Log("Collision with Light tag");
-    }
+    }*/
 
     private void OnTriggerExit2D(Collider2D c)
     {
