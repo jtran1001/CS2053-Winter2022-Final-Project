@@ -98,5 +98,3 @@ public class Level1LightController : MonoBehaviour
         rb.MovePosition(position);
 
     }
-
-}

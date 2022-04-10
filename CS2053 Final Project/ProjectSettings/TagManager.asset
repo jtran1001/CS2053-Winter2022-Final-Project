@@ -8,12 +8,7 @@ TagManager:
   - WaterZone
   - Obstacle
   - Enemy
-  - EndPoint
-  - ExitPoint1
-  - ExitPoint2
-  - ExitPoint3
-  - ExitPoint4
-  - ExitPoint5
+  - Light
   layers:
   - Default
   - TransparentFX
