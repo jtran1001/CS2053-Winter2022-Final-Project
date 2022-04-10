@@ -7,7 +7,7 @@ public class EndGameMenu : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("SlimeGame1");
+        SceneManager.LoadScene("SlimelightLevel1");
     }
 
     // Update is called once per frame
