@@ -38,7 +38,7 @@ public class FlyingEnemy : MonoBehaviour
 
     private void ReturnOriginPoint()
     {
-        transform.position = Vector2.MoveToward(transform.position, startingPoint.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, originPoint.transform.position, speed * Time.deltaTime);
     }
 
     private void Flip()
