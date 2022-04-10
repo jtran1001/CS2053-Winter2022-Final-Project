@@ -1,106 +1,106 @@
 fileFormatVersion: 2
-guid: e8bca846d30671b48aaaabf2497fe249
+guid: 4a12756b581b6114b92f93eadfa744a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5024150845238062903
-    second: MH_SpriteSheet_0
+      213: 3054439076135632626
+    second: spriteSheet_0
   - first:
-      213: 1482044535793342425
-    second: MH_SpriteSheet_1
+      213: -3580244729682970059
+    second: spriteSheet_1
   - first:
-      213: -1296905652636245583
-    second: MH_SpriteSheet_2
+      213: 7158364795336672142
+    second: spriteSheet_2
   - first:
-      213: -4787267045888030874
-    second: MH_SpriteSheet_3
+      213: -8888014035734707558
+    second: spriteSheet_3
   - first:
-      213: -5465270423662998356
-    second: MH_SpriteSheet_4
+      213: 5840598288223990395
+    second: spriteSheet_4
   - first:
-      213: 4840747089557593465
-    second: MH_SpriteSheet_5
+      213: -7355460615089035379
+    second: spriteSheet_5
   - first:
-      213: -2927395994218083460
-    second: MH_SpriteSheet_6
+      213: 2767646214761213222
+    second: spriteSheet_6
   - first:
-      213: -3773837733184319066
-    second: MH_SpriteSheet_7
+      213: 8933768992786879973
+    second: spriteSheet_7
   - first:
-      213: 3088999984390609312
-    second: MH_SpriteSheet_8
+      213: -6596578942836412520
+    second: spriteSheet_8
   - first:
-      213: 7520979190224699093
-    second: MH_SpriteSheet_9
+      213: 5119705923490282519
+    second: spriteSheet_9
   - first:
-      213: -8591681149148519112
-    second: MH_SpriteSheet_10
+      213: -6212798320411776929
+    second: spriteSheet_10
   - first:
-      213: -5350286920056992941
-    second: MH_SpriteSheet_11
+      213: 8774957141590506983
+    second: spriteSheet_11
   - first:
-      213: -7635244180175607451
-    second: MH_SpriteSheet_12
+      213: -5418613701882328366
+    second: spriteSheet_12
   - first:
-      213: -1468109176262044749
-    second: MH_SpriteSheet_13
+      213: -3558640460785518181
+    second: spriteSheet_13
   - first:
-      213: 4867987898647152313
-    second: MH_SpriteSheet_14
+      213: -393313429032031610
+    second: spriteSheet_14
   - first:
-      213: -3475858144624915832
-    second: MH_SpriteSheet_15
+      213: 5740352905300812954
+    second: spriteSheet_15
   - first:
-      213: -7949941365398479194
-    second: MH_SpriteSheet_16
+      213: 2230438961488882731
+    second: spriteSheet_16
   - first:
-      213: -7035868004848281880
-    second: MH_SpriteSheet_17
+      213: 4806556757587706279
+    second: spriteSheet_17
   - first:
-      213: -5702739101087789721
-    second: MH_SpriteSheet_18
+      213: 6889952209659190339
+    second: spriteSheet_18
   - first:
-      213: 4166921434366477421
-    second: MH_SpriteSheet_19
+      213: -8284555360286226792
+    second: spriteSheet_19
   - first:
-      213: 7084922457529635219
-    second: MH_SpriteSheet_20
+      213: -4041717611006376134
+    second: spriteSheet_20
   - first:
-      213: -7155562414519489657
-    second: MH_SpriteSheet_21
+      213: 7245656942873624432
+    second: spriteSheet_21
   - first:
-      213: 2899043316861748799
-    second: MH_SpriteSheet_22
+      213: 7187936125504226239
+    second: spriteSheet_22
   - first:
-      213: 1091790123257094179
-    second: MH_SpriteSheet_23
+      213: 2089961836523891962
+    second: spriteSheet_23
   - first:
-      213: -1383830966409125987
-    second: MH_SpriteSheet_24
+      213: 2917281139913506261
+    second: spriteSheet_24
   - first:
-      213: 4365036147046372210
-    second: MH_SpriteSheet_25
+      213: -595229294967675107
+    second: spriteSheet_25
   - first:
-      213: -4215137304540480995
-    second: MH_SpriteSheet_26
+      213: 8914662134217368570
+    second: spriteSheet_26
   - first:
-      213: 7711423707770218581
-    second: MH_SpriteSheet_27
+      213: -7868628137325100173
+    second: spriteSheet_27
   - first:
-      213: 622823722365439018
-    second: MH_SpriteSheet_28
+      213: -6169224739299064867
+    second: spriteSheet_28
   - first:
-      213: 7129740727882197151
-    second: MH_SpriteSheet_29
+      213: -5147230828771950894
+    second: spriteSheet_29
   - first:
-      213: -9019711969159960780
-    second: MH_SpriteSheet_30
+      213: -3608476866795476098
+    second: spriteSheet_30
   - first:
-      213: 6615608675267411082
-    second: MH_SpriteSheet_31
+      213: 481984066103066885
+    second: spriteSheet_31
   - first:
-      213: -8162941802202829566
-    second: MH_SpriteSheet_32
+      213: -1056188254669796417
+    second: spriteSheet_32
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -186,7 +186,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MH_SpriteSheet_0
+      name: spriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c05b93ec61a64ab0800000000000000
-      internalID: -5024150845238062903
+      spriteID: 2fef229182c836a20800000000000000
+      internalID: 3054439076135632626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_1
+      name: spriteSheet_1
       rect:
         serializedVersion: 2
         x: 33
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7554137a7419410800000000000000
-      internalID: 1482044535793342425
+      spriteID: 53a3846236a605ec0800000000000000
+      internalID: -3580244729682970059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_2
+      name: spriteSheet_2
       rect:
         serializedVersion: 2
         x: 66
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1ab632e27700ee0800000000000000
-      internalID: -1296905652636245583
+      spriteID: e8344becade975360800000000000000
+      internalID: 7158364795336672142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_3
+      name: spriteSheet_3
       rect:
         serializedVersion: 2
         x: 99
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66709ec5cf5309db0800000000000000
-      internalID: -4787267045888030874
+      spriteID: a92c851435e67a480800000000000000
+      internalID: -8888014035734707558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_4
+      name: spriteSheet_4
       rect:
         serializedVersion: 2
         x: 132
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac4e1481857724b0800000000000000
-      internalID: -5465270423662998356
+      spriteID: b727855c239fd0150800000000000000
+      internalID: 5840598288223990395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_5
+      name: spriteSheet_5
       rect:
         serializedVersion: 2
         x: 165
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97d1690a4d9cd2340800000000000000
-      internalID: 4840747089557593465
+      spriteID: d87ed3e9a872ce990800000000000000
+      internalID: -7355460615089035379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_6
+      name: spriteSheet_6
       rect:
         serializedVersion: 2
         x: 198
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7bcabf6adccf57d0800000000000000
-      internalID: -2927395994218083460
+      spriteID: 62debc69197a86620800000000000000
+      internalID: 2767646214761213222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_7
+      name: spriteSheet_7
       rect:
         serializedVersion: 2
         x: 0
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a155998392a0abc0800000000000000
-      internalID: -3773837733184319066
+      spriteID: 5e51678d09f1bfb70800000000000000
+      internalID: 8933768992786879973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_8
+      name: spriteSheet_8
       rect:
         serializedVersion: 2
         x: 33
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a91acc9e155eda20800000000000000
-      internalID: 3088999984390609312
+      spriteID: 89fe963d66e3474a0800000000000000
+      internalID: -6596578942836412520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_9
+      name: spriteSheet_9
       rect:
         serializedVersion: 2
         x: 66
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5deb274c9b2ef5860800000000000000
-      internalID: 7520979190224699093
+      spriteID: 71cf91c7969dc0740800000000000000
+      internalID: 5119705923490282519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_10
+      name: spriteSheet_10
       rect:
         serializedVersion: 2
         x: 99
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8352599f38734c880800000000000000
-      internalID: -8591681149148519112
+      spriteID: f5866ba28d4b7c9a0800000000000000
+      internalID: -6212798320411776929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_11
+      name: spriteSheet_11
       rect:
         serializedVersion: 2
         x: 132
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b859ba466ffb5b0800000000000000
-      internalID: -5350286920056992941
+      spriteID: 7ed77cf4709e6c970800000000000000
+      internalID: 8774957141590506983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_12
+      name: spriteSheet_12
       rect:
         serializedVersion: 2
         x: 165
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 569a3431fd92a0690800000000000000
-      internalID: -7635244180175607451
+      spriteID: 2da4d341c873dc4b0800000000000000
+      internalID: -5418613701882328366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_13
+      name: spriteSheet_13
       rect:
         serializedVersion: 2
         x: 198
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b3d8698b7a30abe0800000000000000
-      internalID: -1468109176262044749
+      spriteID: b99fb8bfa5b2d9ec0800000000000000
+      internalID: -3558640460785518181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_14
+      name: spriteSheet_14
       rect:
         serializedVersion: 2
         x: 0
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b683cdb3319e8340800000000000000
-      internalID: 4867987898647152313
+      spriteID: 68aa729258baa8af0800000000000000
+      internalID: -393313429032031610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_15
+      name: spriteSheet_15
       rect:
         serializedVersion: 2
         x: 33
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88acbffee6543cfc0800000000000000
-      internalID: -3475858144624915832
+      spriteID: a9426ddbd84d9af40800000000000000
+      internalID: 5740352905300812954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_16
+      name: spriteSheet_16
       rect:
         serializedVersion: 2
         x: 66
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ae5d32e2722ca190800000000000000
-      internalID: -7949941365398479194
+      spriteID: b2c6cb80b6c14fe10800000000000000
+      internalID: 2230438961488882731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_17
+      name: spriteSheet_17
       rect:
         serializedVersion: 2
         x: 99
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e65b74c3539b5e90800000000000000
-      internalID: -7035868004848281880
+      spriteID: 7a1c4c0a7e154b240800000000000000
+      internalID: 4806556757587706279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_18
+      name: spriteSheet_18
       rect:
         serializedVersion: 2
         x: 165
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d8ee0800dcbd0b0800000000000000
-      internalID: -5702739101087789721
+      spriteID: 34c5728b7070e9f50800000000000000
+      internalID: 6889952209659190339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_19
+      name: spriteSheet_19
       rect:
         serializedVersion: 2
         x: 198
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d64006e97f0e3d930800000000000000
-      internalID: 4166921434366477421
+      spriteID: 896c4141bc8570d80800000000000000
+      internalID: -8284555360286226792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_20
+      name: spriteSheet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391dd360073b25260800000000000000
-      internalID: 7084922457529635219
+      spriteID: a3746892f3fe8e7c0800000000000000
+      internalID: -4041717611006376134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_21
+      name: spriteSheet_21
       rect:
         serializedVersion: 2
         x: 33
@@ -641,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bed6255e552bc90800000000000000
-      internalID: -7155562414519489657
+      spriteID: 07f3354b99ebd8460800000000000000
+      internalID: 7245656942873624432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_22
+      name: spriteSheet_22
       rect:
         serializedVersion: 2
         x: 99
@@ -662,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f36c30279887b3820800000000000000
-      internalID: 2899043316861748799
+      spriteID: fb380e4a2dda0c360800000000000000
+      internalID: 7187936125504226239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_23
+      name: spriteSheet_23
       rect:
         serializedVersion: 2
         x: 132
@@ -683,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 320e4022551d62f00800000000000000
-      internalID: 1091790123257094179
+      spriteID: afc212c9739010d10800000000000000
+      internalID: 2089961836523891962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_24
+      name: spriteSheet_24
       rect:
         serializedVersion: 2
         x: 165
@@ -704,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f9ff16115abcce0800000000000000
-      internalID: -1383830966409125987
+      spriteID: 5ddbd768db34c7820800000000000000
+      internalID: 2917281139913506261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_25
+      name: spriteSheet_25
       rect:
         serializedVersion: 2
         x: 198
@@ -725,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2735070bf39b39c30800000000000000
-      internalID: 4365036147046372210
+      spriteID: d17ab812c125db7f0800000000000000
+      internalID: -595229294967675107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_26
+      name: spriteSheet_26
       rect:
         serializedVersion: 2
         x: 0
@@ -746,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1afd5b44f2d085c0800000000000000
-      internalID: -4215137304540480995
+      spriteID: af3e6aaaafd37bb70800000000000000
+      internalID: 8914662134217368570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_27
+      name: spriteSheet_27
       rect:
         serializedVersion: 2
         x: 33
@@ -767,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5586b2e510b740b60800000000000000
-      internalID: 7711423707770218581
+      spriteID: 373081d16640dc290800000000000000
+      internalID: -7868628137325100173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_28
+      name: spriteSheet_28
       rect:
         serializedVersion: 2
         x: 66
@@ -788,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2c474920e6b4a800800000000000000
-      internalID: 622823722365439018
+      spriteID: dd3078a19c2826aa0800000000000000
+      internalID: -6169224739299064867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_29
+      name: spriteSheet_29
       rect:
         serializedVersion: 2
         x: 0
@@ -809,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f98ad02ca6de1f260800000000000000
-      internalID: 7129740727882197151
+      spriteID: 2debb1a15dc5198b0800000000000000
+      internalID: -5147230828771950894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_30
+      name: spriteSheet_30
       rect:
         serializedVersion: 2
         x: 33
@@ -830,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437a1e5a0cb83d280800000000000000
-      internalID: -9019711969159960780
+      spriteID: e7be07e786d1cedc0800000000000000
+      internalID: -3608476866795476098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_31
+      name: spriteSheet_31
       rect:
         serializedVersion: 2
         x: 66
@@ -851,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8c7e460a0d5fcb50800000000000000
-      internalID: 6615608675267411082
+      spriteID: 501c87754f950b600800000000000000
+      internalID: 481984066103066885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_SpriteSheet_32
+      name: spriteSheet_32
       rect:
         serializedVersion: 2
         x: 0
@@ -872,8 +872,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d63851ea767be80800000000000000
-      internalID: -8162941802202829566
+      spriteID: fbb8778d06aa751f0800000000000000
+      internalID: -1056188254669796417
       vertices: []
       indices: 
       edges: []
