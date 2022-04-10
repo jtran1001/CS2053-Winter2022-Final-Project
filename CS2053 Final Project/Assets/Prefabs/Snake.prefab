@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4375723065893713661}
   m_Layer: 0
   m_Name: Snake
-  m_TagString: Untagged
+  m_TagString: Enemy_Snake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2089961836523891962, guid: 4a12756b581b6114b92f93eadfa744a0,
+  m_Sprite: {fileID: 1091790123257094179, guid: e8bca846d30671b48aaaabf2497fe249,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
