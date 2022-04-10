@@ -11,13 +11,11 @@ public class MouseLightController : MonoBehaviour
     private Vector2 position = new Vector2(0f, 0f);
     private Rigidbody2D rb;
     public SlimeController Slime;
-    public GameObject pointerGameObject;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         position = Slime.transform.position;
-        //pointerGameObject.SetActive(true);
     }
     void Update()
     {

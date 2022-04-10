@@ -6,11 +6,9 @@ TagManager:
   tags:
   - CanJumpGround
   - WaterZone
-
-  - Enemy_Snake
   - Obstacle
   - Enemy
-
+  - Light
   layers:
   - Default
   - TransparentFX
