@@ -113,6 +113,10 @@ public class SlimeController : MonoBehaviour
         {
             CanJump = true;
         }
+        if (c.gameObject.tag == "ExitPoint")
+        {
+            SceneManager.LoadScene("End");
+        }
     }
 
     void OnTriggerStay2D(Collider2D c)

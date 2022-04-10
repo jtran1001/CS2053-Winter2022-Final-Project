@@ -6,6 +6,10 @@ TagManager:
   tags:
   - CanJumpGround
   - WaterZone
+  - Obstacle
+  - Enemy
+  - EndPoint
+  - ExitPoint
   layers:
   - Default
   - TransparentFX
@@ -15,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -49,6 +53,12 @@ TagManager:
   - name: Slime
     uniqueID: 3075285207
     locked: 0
+  - name: Enemy
+    uniqueID: 284034905
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Button
+    uniqueID: 181076517
     locked: 0
