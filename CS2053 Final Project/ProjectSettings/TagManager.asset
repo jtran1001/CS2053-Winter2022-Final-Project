@@ -7,39 +7,42 @@ TagManager:
   - CanJumpGround
   - WaterZone
   - Enemy_Snake
+  - Obstacle
+  - Enemy
+  - Light
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  - Obstacle
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: BackGround
     uniqueID: 1599475585
@@ -50,6 +53,12 @@ TagManager:
   - name: Slime
     uniqueID: 3075285207
     locked: 0
+  - name: Enemy
+    uniqueID: 284034905
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Button
+    uniqueID: 181076517
     locked: 0
