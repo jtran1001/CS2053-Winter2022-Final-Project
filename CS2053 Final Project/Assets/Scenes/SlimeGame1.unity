@@ -12027,7 +12027,6 @@ MonoBehaviour:
   jumpVelocity: 10
   HydrationText: {fileID: 0}
   deathMask: {fileID: 835088707}
-  slimePlop: {fileID: 0}
   FullHydration: 10
   Hydration: 10
 --- !u!61 &1921259853
