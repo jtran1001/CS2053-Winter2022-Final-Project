@@ -20,6 +20,7 @@ public class SlimeController : MonoBehaviour
     Rigidbody2D rb;
 
     private Vector3 horizontalVelocity;
+    private bool inAir = false;
     private bool CanJump = false;
     private bool WaterZone = false;
     public int FullHydration = 10;
