@@ -12,7 +12,7 @@ public class Level1LightController : MonoBehaviour
     private Rigidbody2D rb;
     public SlimeController Slime;
     public Text Instructions;
-    
+
 
     private int State;
 
@@ -98,3 +98,4 @@ public class Level1LightController : MonoBehaviour
         rb.MovePosition(position);
 
     }
+}

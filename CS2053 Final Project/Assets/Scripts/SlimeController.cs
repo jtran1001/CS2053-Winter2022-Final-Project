@@ -15,7 +15,7 @@ public class SlimeController : MonoBehaviour
     public Text HydrationText;
     public GameObject deathMask;
     public AudioSource slimePlop;
-
+    private bool inAir = false;
 
     Rigidbody2D rb;
 
@@ -139,12 +139,6 @@ public class SlimeController : MonoBehaviour
             StartCoroutine(DeathPause());
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-
-    }
-
-    IEnumerator DeathPause(){
-        yield return new WaitForSecondsRealtime(5);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         if (c.gameObject.tag == "ExitPoint1")
         {
             SceneManager.LoadScene("Boss");
@@ -153,6 +147,11 @@ public class SlimeController : MonoBehaviour
         {
             SceneManager.LoadScene("End");
         }
+    }
+
+    IEnumerator DeathPause(){
+        yield return new WaitForSecondsRealtime(5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void OnTriggerStay2D(Collider2D c)
