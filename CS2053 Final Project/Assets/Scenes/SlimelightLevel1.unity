@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 979b160d3bf852a4f81c2dd852fd33bc,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118788,7 +118788,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7245656942873624432, guid: 4a12756b581b6114b92f93eadfa744a0,
+  m_Sprite: {fileID: 7245656942873624432, guid: 9441e3a7d37685f4d82273d379955cdf,
     type: 3}
   m_Color: {r: 0, g: 1, b: 0.97092533, a: 1}
   m_FlipX: 0
@@ -118797,7 +118797,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 0.90625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1760146431
@@ -118833,7 +118833,6 @@ MonoBehaviour:
   jumpVelocity: 10
   HydrationText: {fileID: 321171881}
   deathMask: {fileID: 1817641677}
-  slimePlop: {fileID: 0}
   FullHydration: 20
   Hydration: 10
 --- !u!1 &1817641677

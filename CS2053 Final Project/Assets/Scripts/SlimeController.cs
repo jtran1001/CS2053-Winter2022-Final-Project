@@ -14,7 +14,6 @@ public class SlimeController : MonoBehaviour
     public float jumpVelocity;
     public Text HydrationText;
     public GameObject deathMask;
-    public AudioSource slimePlop;
     private bool inAir = false;
 
     Rigidbody2D rb;
@@ -36,8 +35,6 @@ public class SlimeController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         deathMask.SetActive(false);
-        slimePlop = GetComponent<AudioSource>();
-        slimePlop.Pause();
         Time.timeScale = 1;
         Hydration = FullHydration;
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
@@ -120,14 +117,11 @@ public class SlimeController : MonoBehaviour
         {
             CanJump = true;
             if(inAir){
-            slimePlop.Play(0);
-            inAir = false;
-            slimePlop.Pause();
+              inAir = false;
             }
         }
         if(c.gameObject.tag == "Ground"){
             if(inAir){
-                slimePlop.PlayOneShot(slimePlop.clip, 1);
                 inAir = false;
             }
         }
