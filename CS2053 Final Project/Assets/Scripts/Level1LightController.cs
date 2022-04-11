@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LightController : MonoBehaviour
+public class Level1LightController : MonoBehaviour
 {
     private Vector3 mousePosition;
     public float moveSpeed = 0.05f;
@@ -12,6 +12,7 @@ public class LightController : MonoBehaviour
     private Rigidbody2D rb;
     public SlimeController Slime;
     public Text Instructions;
+    
 
     private int State;
 
@@ -48,7 +49,7 @@ public class LightController : MonoBehaviour
 
         if (State == 1)
         {
-            Lilae.text = "HELLO! SHOULDN'T A LITTLE SLIME LIKE YOU BE PLAYING IN A SWAMP WITH YOUR FRIENDS?";
+            Lilae.text = "\"HELLO! SHOULDN'T A LITTLE SLIME LIKE YOU BE PLAYING IN A SWAMP WITH YOUR FRIENDS?\"";
             Instructions.text = "Press SPACE to jump/relpy.";
             if (Input.GetButton("Jump"))
             {
@@ -61,7 +62,7 @@ public class LightController : MonoBehaviour
         if (State == 2)
         {
 
-            Lilae.text = "AWW, THAT'S SO SAD! HERE, LET ME HELP YOU FIND A WAY OUT.";
+            Lilae.text = "\"AWW, THAT'S SO SAD! HERE, LET ME HELP YOU FIND A WAY OUT.\"";
             Instructions.text = "Left-click on the mouse to direct Lilae.";
 
             if (Input.GetButton("Fire1"))

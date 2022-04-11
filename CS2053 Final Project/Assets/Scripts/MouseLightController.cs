@@ -19,26 +19,26 @@ public class MouseLightController : MonoBehaviour
     }
     void Update()
     {
-        
 
-        if (Input.GetButton("Fire1"))
-        {
-            
-            mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
 
-            
-        }
-        else
-        {
-            position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
-        }
-        
+        //if (Input.GetButton("Fire1"))
+        //{
+
+        //    mousePosition = Input.mousePosition;
+        //    mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        //    position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+
+
+       // }
+        //else
+        //{
+        //    position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
+        //}
+
         rb.MovePosition(position);
     }
 
-   
+
     void FixedUpdate()
     {
         /*
@@ -56,4 +56,3 @@ public class MouseLightController : MonoBehaviour
         rb.MovePosition(position);
     }
 }
-

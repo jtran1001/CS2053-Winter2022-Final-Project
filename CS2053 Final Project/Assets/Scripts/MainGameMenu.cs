@@ -8,11 +8,11 @@ public class MainGameMenu : MonoBehaviour
     // Start game
     public void PlayGame()
     {
-        SceneManager.LoadScene("SlimeGame1");
+        SceneManager.LoadScene("SlimelightLevel1");
     }
 
     public void PlayTutorial()
     {
-        SceneManager.LoadScene("SlimeGame");
+        Application.Quit();
     }
 }

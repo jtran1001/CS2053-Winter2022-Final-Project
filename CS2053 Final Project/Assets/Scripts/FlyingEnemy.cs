@@ -22,12 +22,12 @@ public class FlyingEnemy : MonoBehaviour
     {
         if(player == null)
         {
-            
+
             return;
         }
         if (chase == true)
         {
-            
+
             Chase();
         }
 
@@ -38,7 +38,7 @@ public class FlyingEnemy : MonoBehaviour
         }
         Flip();
     }
-    
+
     void FixedUpdate()
     {
         if (run == true)
