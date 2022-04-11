@@ -133,7 +133,7 @@ public class SlimeController : MonoBehaviour
         }
         if (c.gameObject.tag == "Enemy")
         {
-
+            
             deathMask.SetActive(true);
             //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
