@@ -6729,7 +6729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed7cd73be1f5964ab9e5a793dad0144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0.1
   Slime: {fileID: 1760146432}
 --- !u!50 &519420034
 Rigidbody2D:
@@ -6855,7 +6855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1c131b4ccadfc8418973721e15d865d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0.1
   Slime: {fileID: 1760146432}
   Instructions: {fileID: 1250282768}
   Lilae: {fileID: 2009515050}
