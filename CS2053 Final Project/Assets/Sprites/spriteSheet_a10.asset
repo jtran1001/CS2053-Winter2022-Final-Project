@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: spriteSheet_10
+  m_Name: spriteSheet_a10
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -6212798320411776929, guid: 9441e3a7d37685f4d82273d379955cdf,
     type: 3}
