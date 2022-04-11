@@ -99,7 +99,7 @@ public class SlimeController : MonoBehaviour
         {
 
             deathMask.SetActive(true);
-            Time.timeScale = 0;
+            //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
