@@ -136,6 +136,7 @@ public class SlimeController : MonoBehaviour
             //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            State = 2;
         }
         if (c.gameObject.tag == "ExitPoint1")
         {
