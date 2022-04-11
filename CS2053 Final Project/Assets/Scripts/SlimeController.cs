@@ -20,6 +20,7 @@ public class SlimeController : MonoBehaviour
     Rigidbody2D rb;
 
     private Vector3 horizontalVelocity;
+    private bool inAir = false;
     private bool CanJump = false;
     private bool WaterZone = false;
     public int FullHydration = 10;
@@ -140,6 +141,22 @@ public class SlimeController : MonoBehaviour
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         if (c.gameObject.tag == "ExitPoint1")
+        {
+            SceneManager.LoadScene("MH_Level1");
+        }
+        if (c.gameObject.tag == "ExitPoint2")
+        {
+            SceneManager.LoadScene("MH_Level2");
+        }
+        if (c.gameObject.tag == "ExitPoint3")
+        {
+            SceneManager.LoadScene("SlimeGame1");
+        }
+        if (c.gameObject.tag == "ExitPoint4")
+        {
+            SceneManager.LoadScene("SlimeGame2");
+        }
+        if (c.gameObject.tag == "ExitPoint6")
         {
             SceneManager.LoadScene("Boss");
         }
