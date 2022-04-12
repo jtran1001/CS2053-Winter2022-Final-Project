@@ -63,6 +63,10 @@ public class SlimeController : MonoBehaviour
         {
             m_SpriteRenderer.color = new Color(0, 0, 0, 0);
             State = 2;
+            deathMask.SetActive(true);
+            //Time.timeScale = 0.1;
+            StartCoroutine(DeathPause());
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         else if (Hydration <= 4)
         {
@@ -132,8 +136,13 @@ public class SlimeController : MonoBehaviour
             //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            State = 2;
         }
         if (c.gameObject.tag == "ExitPoint1")
+        {
+            SceneManager.LoadScene("SlimeGame1");
+        }
+        if (c.gameObject.tag == "ExitPoint2")
         {
             SceneManager.LoadScene("Boss");
         }

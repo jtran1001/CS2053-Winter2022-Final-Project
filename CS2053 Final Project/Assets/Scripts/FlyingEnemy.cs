@@ -13,7 +13,7 @@ public class FlyingEnemy : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Start game");
+        //Debug.Log("Start game");
         player = GameObject.FindGameObjectWithTag("Player");
         flashLight = GameObject.FindGameObjectWithTag("Light");
     }
@@ -33,7 +33,7 @@ public class FlyingEnemy : MonoBehaviour
 
         else
         {
-            Debug.Log("PLayer not found");
+            //Debug.Log("PLayer not found");
             ReturnOriginPoint();
         }
         Flip();
@@ -43,7 +43,7 @@ public class FlyingEnemy : MonoBehaviour
     {
         if (run == true)
         {
-            Debug.Log("Touch light");
+            //Debug.Log("Touch light");
             Run();
         }
         if (chase == true)
@@ -54,7 +54,7 @@ public class FlyingEnemy : MonoBehaviour
 
         else
         {
-            Debug.Log("PLayer not found");
+            //Debug.Log("PLayer not found");
             ReturnOriginPoint();
         }
         Flip();
@@ -62,19 +62,19 @@ public class FlyingEnemy : MonoBehaviour
     private void Chase()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
-        Debug.Log("Start Chasing");
+        //Debug.Log("Start Chasing");
     }
 
     private void ReturnOriginPoint()
     {
         transform.position = Vector2.MoveTowards(transform.position, originPoint.transform.position, speed * Time.deltaTime);
-        Debug.Log("Returning to base");
+        //Debug.Log("Returning to base");
     }
 
     private void Run()
     {
         ReturnOriginPoint();
-        Debug.Log("Start Running");
+        //Debug.Log("Start Running");
     }
 
     private void Flip()
