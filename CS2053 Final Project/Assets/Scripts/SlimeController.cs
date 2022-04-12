@@ -14,7 +14,8 @@ public class SlimeController : MonoBehaviour
     public float jumpVelocity;
     public Text HydrationText;
     public GameObject deathMask;
-    private bool inAir = false;
+    public AudioClip Water;
+    public AudioClip Hit;
 
     Rigidbody2D rb;
 
@@ -25,6 +26,7 @@ public class SlimeController : MonoBehaviour
     public int Hydration = 10;
     private float LastResetTime = 0;
     private int State;
+    private AudioSource playerAudio;
 
     SpriteRenderer m_SpriteRenderer;
 
@@ -41,6 +43,8 @@ public class SlimeController : MonoBehaviour
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
         HydrationText.text = "";
+
+        playerAudio = GetComponent<AudioSource>();
 
     }
 
@@ -116,22 +120,23 @@ public class SlimeController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D c)
     {
+        if (c.gameObject.tag == "WaterZone")
+        {
+            WaterZone = true;
+            playerAudio.PlayOneShot(Water, 1.0f);
+        }
 
         if (c.gameObject.tag == "CanJumpGround")
         {
             CanJump = true;
-            if(inAir){
-              inAir = false;
-            }
+
         }
         if(c.gameObject.tag == "Ground"){
-            if(inAir){
-                inAir = false;
-            }
+
         }
         if (c.gameObject.tag == "Enemy")
         {
-
+            playerAudio.PlayOneShot(Hit, 1.0f);
             deathMask.SetActive(true);
             //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
@@ -140,13 +145,17 @@ public class SlimeController : MonoBehaviour
         }
         if (c.gameObject.tag == "ExitPoint1")
         {
-            SceneManager.LoadScene("SlimeGame1");
+            SceneManager.LoadScene("MH_Level1");
         }
         if (c.gameObject.tag == "ExitPoint2")
         {
-            SceneManager.LoadScene("SlimeGame2");
+            SceneManager.LoadScene("SlimeGame1");
         }
         if (c.gameObject.tag == "ExitPoint3")
+        {
+            SceneManager.LoadScene("SlimeGame2");
+        }
+        if (c.gameObject.tag == "ExitPoint4")
         {
             SceneManager.LoadScene("Boss");
         }
@@ -167,11 +176,7 @@ public class SlimeController : MonoBehaviour
         {
             WaterZone = true;
         }
-        /*
-        if (c.gameObject.tag == "Light")
-        {
-            c.attachedRigidbody.AddForce(-0.1F * c.attachedRigidbody.velocity);
-        }*/
+        
     }
 
     void OnTriggerExit2D(Collider2D c)
