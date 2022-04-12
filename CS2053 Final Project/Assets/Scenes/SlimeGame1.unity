@@ -63987,7 +63987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &835088708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64024,8 +64024,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 716805755
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 3347191235822632613, guid: b9b8257845634c643804179a53064b25,
     type: 3}
@@ -69155,6 +69155,7 @@ MonoBehaviour:
   HydrationText: {fileID: 1042652838}
   deathMask: {fileID: 845860575}
   Water: {fileID: 8300000, guid: 3e8a900385deac147b82592c87de786b, type: 3}
+  Hit: {fileID: 8300000, guid: cedddd9630d8cf249be08f61b8da5349, type: 3}
   FullHydration: 16
   Hydration: 10
 --- !u!58 &1921259853
