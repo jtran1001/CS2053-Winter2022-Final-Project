@@ -12,14 +12,15 @@ public class Level1LightController : MonoBehaviour
     private Rigidbody2D rb;
     public SlimeController Slime;
     public Text Instructions;
-
+    public Text Lilae;
 
     private int State;
-
     private float startTime;
     private float journeyLength;
+    private bool keyA;
+    private bool keyD;
 
-    public Text Lilae;
+    
 
     void Start()
     {
@@ -33,6 +34,8 @@ public class Level1LightController : MonoBehaviour
     }
     void Update()
     {
+        keyA = Input.GetKeyDown(KeyCode.A);
+        keyD = Input.GetKeyDown(KeyCode.D);
 
         if (State == 0)
         {
@@ -49,8 +52,9 @@ public class Level1LightController : MonoBehaviour
 
         if (State == 1)
         {
-            Lilae.text = "\"HELLO! SHOULDN'T A LITTLE SLIME LIKE YOU BE PLAYING IN A SWAMP WITH YOUR FRIENDS?\"";
+            Lilae.text = "\"HELLO! MY NAME IS LILAE! SHOULDN'T A LITTLE SLIME LIKE YOU BE PLAYING IN A SWAMP WITH YOUR FRIENDS?\"";
             Instructions.text = "Press SPACE to jump/relpy.";
+            Slime.Hydration = 20;
             if (Input.GetButton("Jump"))
             {
                 State = 2;
@@ -75,6 +79,31 @@ public class Level1LightController : MonoBehaviour
 
         if (State == 3)
         {
+            Lilae.text = "\"PLEASE WATCH YOUR HYDRATION, I CAN SEE YOU CHANGING COLORS FAST! I'VE NEVER KNOWN A SLIME WHO LIVED LONG AFTER THEY TURNED GREY.\"";
+            Instructions.text = "Use the A and D keys to move to the water.";
+            if (Input.GetButton("Fire1"))
+            {
+                
+                State = 4;
+                mousePosition = Input.mousePosition;
+                mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+                position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+                rb.MovePosition(position);
+                
+            }
+            else
+            {
+                position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
+            }
+        }
+        if (State == 4)
+        {
+            if (keyA is true || keyD is true)
+            {
+                Lilae.text = "";
+                Instructions.text = "";
+            }
+
             if (Input.GetButton("Fire1"))
             {
                 mousePosition = Input.mousePosition;
@@ -88,7 +117,6 @@ public class Level1LightController : MonoBehaviour
                 position = Vector2.Lerp(transform.position, Slime.transform.position, moveSpeed);
             }
         }
-
     }
 
     void LateUpdate()

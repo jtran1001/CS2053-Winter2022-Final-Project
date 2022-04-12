@@ -38,7 +38,7 @@ public class SlimeController : MonoBehaviour
 
         deathMask.SetActive(false);
         Time.timeScale = 1;
-        Hydration = FullHydration;
+        Hydration = FullHydration+10;
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
@@ -145,17 +145,21 @@ public class SlimeController : MonoBehaviour
         }
         if (c.gameObject.tag == "ExitPoint1")
         {
-            SceneManager.LoadScene("MH_Level1");
+            SceneManager.LoadScene("MH_Level2");
         }
         if (c.gameObject.tag == "ExitPoint2")
         {
-            SceneManager.LoadScene("SlimeGame1");
+            SceneManager.LoadScene("MH_Level1");
         }
         if (c.gameObject.tag == "ExitPoint3")
         {
-            SceneManager.LoadScene("SlimeGame2");
+            SceneManager.LoadScene("SlimeGame1");
         }
         if (c.gameObject.tag == "ExitPoint4")
+        {
+            SceneManager.LoadScene("SlimeGame2");
+        }
+        if (c.gameObject.tag == "ExitPoint5")
         {
             SceneManager.LoadScene("Boss");
         }
