@@ -14,6 +14,7 @@ public class SlimeController : MonoBehaviour
     public float jumpVelocity;
     public Text HydrationText;
     public GameObject deathMask;
+    public AudioClip Water;
     private bool inAir = false;
 
     Rigidbody2D rb;
@@ -25,6 +26,7 @@ public class SlimeController : MonoBehaviour
     public int Hydration = 10;
     private float LastResetTime = 0;
     private int State;
+    private AudioSource playerAudio;
 
     SpriteRenderer m_SpriteRenderer;
 
@@ -41,6 +43,8 @@ public class SlimeController : MonoBehaviour
         m_SpriteRenderer.color = new Color(0, 255, 0, 255);
         State = 1;
         HydrationText.text = "";
+
+        playerAudio = GetComponent<AudioSource>();
 
     }
 
@@ -116,6 +120,11 @@ public class SlimeController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D c)
     {
+        if (c.gameObject.tag == "WaterZone")
+        {
+            WaterZone = true;
+            playerAudio.PlayOneShot(Water, 1.0f);
+        }
 
         if (c.gameObject.tag == "CanJumpGround")
         {
@@ -167,11 +176,7 @@ public class SlimeController : MonoBehaviour
         {
             WaterZone = true;
         }
-        /*
-        if (c.gameObject.tag == "Light")
-        {
-            c.attachedRigidbody.AddForce(-0.1F * c.attachedRigidbody.velocity);
-        }*/
+        
     }
 
     void OnTriggerExit2D(Collider2D c)
