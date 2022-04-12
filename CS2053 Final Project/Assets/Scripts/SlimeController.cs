@@ -15,7 +15,7 @@ public class SlimeController : MonoBehaviour
     public Text HydrationText;
     public GameObject deathMask;
     public AudioClip Water;
-    private bool inAir = false;
+    public AudioClip Hit;
 
     Rigidbody2D rb;
 
@@ -129,18 +129,14 @@ public class SlimeController : MonoBehaviour
         if (c.gameObject.tag == "CanJumpGround")
         {
             CanJump = true;
-            if(inAir){
-              inAir = false;
-            }
+
         }
         if(c.gameObject.tag == "Ground"){
-            if(inAir){
-                inAir = false;
-            }
+
         }
         if (c.gameObject.tag == "Enemy")
         {
-
+            playerAudio.PlayOneShot(Hit, 1.0f);
             deathMask.SetActive(true);
             //Time.timeScale = 0.1;
             StartCoroutine(DeathPause());
