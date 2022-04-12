@@ -144,6 +144,10 @@ public class SlimeController : MonoBehaviour
         }
         if (c.gameObject.tag == "ExitPoint2")
         {
+            SceneManager.LoadScene("SlimeGame2");
+        }
+        if (c.gameObject.tag == "ExitPoint3")
+        {
             SceneManager.LoadScene("Boss");
         }
         if (c.gameObject.tag == "EndPoint")
